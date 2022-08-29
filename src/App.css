@@ -1,5 +1,19 @@
+.controler {
+  width: 40%;
+  padding: 2em;
+  border-radius: 1em;
+  background-color: whitesmoke;
+}
+
+.form-handler {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
-  text-align: center;
+  padding: 4rem;
 }
 
 .App-logo {
