@@ -7,7 +7,8 @@ import React, { memo } from 'react';
 // import MuiRating from './components/MuiRating';
 // import MuiAutocomplete from './components/MuiAutocomplete';
 // import MuiLayout from './components/MuiLayout';
-import MuiCard from './components/MuiCard';
+// import MuiCard from './components/MuiCard';
+import MuiAccodrion from './components/MuiAccordion';
 
 import './App.css';
 
@@ -21,7 +22,8 @@ const App = () => {
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccodrion />
     </div>
   );
 };
