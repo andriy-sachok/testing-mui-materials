@@ -10,7 +10,8 @@ import React, { memo } from 'react';
 // import MuiCard from './components/MuiCard';
 // import MuiAccodrion from './components/MuiAccordion';
 // import MuiImageList from './components/MuiImageList';
-import MuiNavbar from './components/MuiNavbar';
+// import MuiNavbar from './components/MuiNavbar';
+import MuiLink from './components/MuiLink';
 
 import './App.css';
 
@@ -27,7 +28,8 @@ const App = () => {
       {/* <MuiCard /> */}
       {/* <MuiAccodrion /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
+      {/* <MuiNavbar /> */}
+      <MuiLink />
     </div>
   );
 };
