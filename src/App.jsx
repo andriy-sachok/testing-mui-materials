@@ -8,7 +8,8 @@ import React, { memo } from 'react';
 // import MuiAutocomplete from './components/MuiAutocomplete';
 // import MuiLayout from './components/MuiLayout';
 // import MuiCard from './components/MuiCard';
-import MuiAccodrion from './components/MuiAccordion';
+// import MuiAccodrion from './components/MuiAccordion';
+import MuiImageList from './components/MuiImageList';
 
 import './App.css';
 
@@ -23,7 +24,8 @@ const App = () => {
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout /> */}
       {/* <MuiCard /> */}
-      <MuiAccodrion />
+      {/* <MuiAccodrion /> */}
+      <MuiImageList />
     </div>
   );
 };
