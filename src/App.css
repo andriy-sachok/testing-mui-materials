@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 .controler {
   width: 40%;
   padding: 2em;

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Box, Stack, Divider, Grid } from '@mui/material';
-import { Fragment } from 'react';
+import { Box, Stack, Divider, Grid, Paper } from '@mui/material';
 
 const MuiLayout = () => {
   return (
-    <Fragment>
+    <Paper sx={{ padding: '32px' }} elevation={6}>
       <Stack
         sx={{ border: '1px solid' }}
         direction="row"
@@ -55,7 +54,7 @@ const MuiLayout = () => {
           </Box>
         </Grid>
       </Grid>
-    </Fragment>
+    </Paper>
   );
 };
 
