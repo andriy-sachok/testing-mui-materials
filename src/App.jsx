@@ -4,7 +4,9 @@ import React, { memo } from 'react';
 // import MuiRadioButton from './components/MuiRadioButton';
 // import MuiCheckbox from './components/MuiCheckbox';
 // import MuiSwitch from './components/MuiSwitch';
-import MuiRating from './components/MuiRating';
+// import MuiRating from './components/MuiRating';
+// import MuiAutocomplete from './components/MuiAutocomplete';
+import MuiLayout from './components/MuiLayout';
 
 import './App.css';
 
@@ -15,7 +17,9 @@ const App = () => {
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
       {/* <MuiSwitch /> */}
-      <MuiRating />
+      {/* <MuiRating /> */}
+      {/* <MuiAutocomplete /> */}
+      <MuiLayout />
     </div>
   );
 };
