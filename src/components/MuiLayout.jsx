@@ -1,10 +1,14 @@
 import React from 'react';
-import { Box } from '@mui/material';
-import { Fragment } from 'react';
+import { Box, Stack, Divider } from '@mui/material';
 
 const MuiLayout = () => {
   return (
-    <Fragment>
+    <Stack
+      sx={{ border: '1px solid' }}
+      direction="row"
+      spacing={2}
+      divider={<Divider orientation="vertical" flexItem />}
+    >
       <Box
         sx={{
           backgroundColor: 'primary.main',
@@ -26,7 +30,7 @@ const MuiLayout = () => {
         bgcolor="success.light"
         p={2}
       ></Box>
-    </Fragment>
+    </Stack>
   );
 };
 
