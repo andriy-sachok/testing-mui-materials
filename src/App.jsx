@@ -14,7 +14,8 @@ import React, { memo } from 'react';
 // import MuiLink from './components/MuiLink';
 // import MuiBreadcrumbs from './components/MuiBreadcrumbs';
 // import MuiDrawer from './components/MuiDrawer';
-import MuiSpeedDial from './components/MuiSpeedDial';
+// import MuiSpeedDial from './components/MuiSpeedDial';
+import MuiBottomNavigation from './components/MuiBottomNavigation';
 
 import './App.css';
 
@@ -35,7 +36,8 @@ const App = () => {
       {/* <MuiLink /> */}
       {/* <MuiBreadcrumbs /> */}
       {/* <MuiDrawer /> */}
-      <MuiSpeedDial />
+      {/* <MuiSpeedDial /> */}
+      <MuiBottomNavigation />
     </div>
   );
 };
