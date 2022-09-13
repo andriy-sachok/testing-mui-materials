@@ -11,7 +11,8 @@ import React, { memo } from 'react';
 // import MuiAccodrion from './components/MuiAccordion';
 // import MuiImageList from './components/MuiImageList';
 // import MuiNavbar from './components/MuiNavbar';
-import MuiLink from './components/MuiLink';
+// import MuiLink from './components/MuiLink';
+import MuiBreadcrumbs from './components/MuiBreadcrumbs';
 
 import './App.css';
 
@@ -29,7 +30,8 @@ const App = () => {
       {/* <MuiAccodrion /> */}
       {/* <MuiImageList /> */}
       {/* <MuiNavbar /> */}
-      <MuiLink />
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </div>
   );
 };
