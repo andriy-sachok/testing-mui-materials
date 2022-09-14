@@ -20,9 +20,10 @@ import React, { memo } from 'react';
 // import MuiBadge from './components/data display/MuiBadge';
 // import MuiList from './components/data display/MuiList';
 // import MuiChip from './components/data display/MuiChip';
+// import MuiTooltip from './components/data display/MuiTooltip';
 
 import './App.css';
-import MuiTooltip from './components/data display/MuiTooltip';
+import MuiTable from './components/data display/MuiTable';
 
 const App = () => {
   return (
@@ -47,7 +48,8 @@ const App = () => {
       {/* <MuiBadge /> */}
       {/* <MuiList /> */}
       {/* <MuiChip /> */}
-      <MuiTooltip />
+      {/* <MuiTooltip /> */}
+      <MuiTable />
     </div>
   );
 };
