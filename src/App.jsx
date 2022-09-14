@@ -17,9 +17,10 @@ import React, { memo } from 'react';
 // import MuiSpeedDial from './components/MuiSpeedDial';
 // import MuiBottomNavigation from './components/MuiBottomNavigation';
 // import MuiAvatar from './components/data display/MuiAvatar';
-import MuiBadge from './components/data display/MuiBadge';
+// import MuiBadge from './components/data display/MuiBadge';
 
 import './App.css';
+import MuiList from './components/data display/MuiList';
 
 const App = () => {
   return (
@@ -41,7 +42,8 @@ const App = () => {
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNavigation /> */}
       {/* <MuiAvatar /> */}
-      <MuiBadge />
+      {/* <MuiBadge /> */}
+      <MuiList />
     </div>
   );
 };
