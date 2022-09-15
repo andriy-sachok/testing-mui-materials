@@ -24,9 +24,10 @@ import React, { memo } from 'react';
 // import MuiTable from './components/data display/MuiTable';
 // import MuiAlert from './components/feedback/MuiAlert';
 // import MuiSnackbar from './components/feedback/MuiSnackbar';
+// import MuiDialog from './components/feedback/MuiDialog';
 
 import './App.css';
-import MuiDialog from './components/feedback/MuiDialog';
+import MuiProgress from './components/feedback/MuiProgress';
 
 const App = () => {
   return (
@@ -55,7 +56,8 @@ const App = () => {
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
-      <MuiDialog />
+      {/* <MuiDialog /> */}
+      <MuiProgress />
     </div>
   );
 };
