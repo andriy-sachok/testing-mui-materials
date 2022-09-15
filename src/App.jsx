@@ -22,7 +22,8 @@ import React, { memo } from 'react';
 // import MuiChip from './components/data display/MuiChip';
 // import MuiTooltip from './components/data display/MuiTooltip';
 // import MuiTable from './components/data display/MuiTable';
-import MuiAlert from './components/feedback/MuiAlert';
+// import MuiAlert from './components/feedback/MuiAlert';
+import MuiSnackbar from './components/feedback/MuiSnackbar';
 
 import './App.css';
 
@@ -51,7 +52,8 @@ const App = () => {
       {/* <MuiChip /> */}
       {/* <MuiTooltip /> */}
       {/* <MuiTable /> */}
-      <MuiAlert />
+      {/* <MuiAlert /> */}
+      <MuiSnackbar />
     </div>
   );
 };
