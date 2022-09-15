@@ -23,9 +23,10 @@ import React, { memo } from 'react';
 // import MuiTooltip from './components/data display/MuiTooltip';
 // import MuiTable from './components/data display/MuiTable';
 // import MuiAlert from './components/feedback/MuiAlert';
-import MuiSnackbar from './components/feedback/MuiSnackbar';
+// import MuiSnackbar from './components/feedback/MuiSnackbar';
 
 import './App.css';
+import MuiDialog from './components/feedback/MuiDialog';
 
 const App = () => {
   return (
@@ -53,7 +54,8 @@ const App = () => {
       {/* <MuiTooltip /> */}
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
-      <MuiSnackbar />
+      {/* <MuiSnackbar /> */}
+      <MuiDialog />
     </div>
   );
 };
