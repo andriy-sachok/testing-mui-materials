@@ -31,9 +31,10 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 // import MuiProgress from './components/feedback/MuiProgress';
 // import MuiSkeleton from './components/feedback/MuiSkeleton';
 // import MuiLoadingButton from './components/mui lab/MuiLoadingButton';
+// import MuiPicker from './components/mui lab/MuiPicker';
+import MuiDateRangePicker from './components/mui lab/MuiDateRangePicker';
 
 import './App.css';
-import MuiPicker from './components/mui lab/MuiPicker';
 
 const App = () => {
   return (
@@ -67,7 +68,8 @@ const App = () => {
         {/* <MuiProgress /> */}
         {/* <MuiSkeleton /> */}
         {/* <MuiLoadingButton /> */}
-        <MuiPicker />
+        {/* <MuiPicker /> */}
+        <MuiDateRangePicker />
       </div>
     </LocalizationProvider>
   );
