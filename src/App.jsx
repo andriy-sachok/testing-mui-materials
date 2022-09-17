@@ -26,13 +26,14 @@ import React, { memo } from 'react';
 // import MuiSnackbar from './components/feedback/MuiSnackbar';
 // import MuiDialog from './components/feedback/MuiDialog';
 // import MuiProgress from './components/feedback/MuiProgress';
+// import MuiSkeleton from './components/feedback/MuiSkeleton';
 
 import './App.css';
-import MuiSkeleton from './components/feedback/MuiSkeleton';
+import MuiLoadingButton from './components/mui lab/MuiLoadingButton';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className='App'>
       {/* <MuiSelect /> */}
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
@@ -59,7 +60,8 @@ const App = () => {
       {/* <MuiSnackbar /> */}
       {/* <MuiDialog /> */}
       {/* <MuiProgress /> */}
-      <MuiSkeleton />
+      {/* <MuiSkeleton /> */}
+      <MuiLoadingButton />
     </div>
   );
 };
